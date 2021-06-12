@@ -160,7 +160,7 @@ while True:
             # Drwaing Text on the screen
             Distance_level = int(Distance)
 
-            cv2.putText(frame, f"Distance {Distance} Inches",
+            cv2.putText(frame, f"Distance {Distance} cm",
                         (face_x-6, face_y-6), fonts, 0.5, (BLACK), 2)
     cv2.imshow("frame", frame)
     out.write(frame)
